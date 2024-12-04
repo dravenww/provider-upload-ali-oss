@@ -1,0 +1,39 @@
+{
+  "name": "provider-upload-ali-oss",
+  "version": "1.0.0",
+  "description": "A provider for strapi server to upload file to ali oss",
+  "homepage": "https://github.com/dravenww/provider-upload-ali-oss",
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "./lib",
+  "strapi": {
+    "isProvider": true
+  },
+  "keywords": [
+    "upload",
+    "ali oss",
+    "strapi"
+  ],
+  "dependencies": {
+    "ali-oss": "^6.22.0"
+  },
+  "author": {
+    "email": "jackwen110200@163.com",
+    "name": "dravenww",
+    "url": "https://github.com/dravenww"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:dravenww/provider-upload-ali-oss.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dravenww/provider-upload-ali-oss/issues"
+  },
+  "engines": {
+    "node": ">= 14.0.0",
+    "npm": ">= 8.0.0"
+  },
+  "license": "MIT",
+  "private": false
+}
